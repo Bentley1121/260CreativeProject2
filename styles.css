@@ -1,0 +1,57 @@
+.flex-center-children {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    width: 75%;
+}
+
+.comics-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #1F0BD9;
+    width: 100%;
+    margin: 20px;
+}
+
+.comic-item {
+    background-color: #0CB0F8;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.comic-thumbnail {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.bottom-navigation {
+    padding-bottom: 50px;
+}
+
+/* Footer */
+.footer,
+.push {
+    height: 50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #09B0ED;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .github-link {
+      color: white;
+  }
